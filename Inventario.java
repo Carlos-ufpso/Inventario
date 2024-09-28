@@ -1,5 +1,5 @@
 // Carlos Jhosef Pérez Maldonado 192364
-// Valerin Fernanda Hernandez Prada 1923
+// Valerin Fernanda Hernandez Prada 192425
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -137,7 +137,7 @@ public class Inventario {
         System.out.printf("%-20s %-10s %-15s %-15.2f\n", "Total Inventario", "", "", valorTotalInventario);
     }
 
-    // Esta es la fcunción auxiliar para mostrar la lista de productos con índices
+    // Esta es la función auxiliar para mostrar la lista de productos con índices
     private static void mostrarProductos(ArrayList<String> productos) {
         for (int i = 0; i < productos.size(); i++) {
             System.out.println((i + 1) + ". " + productos.get(i));
